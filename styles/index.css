@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #000000, #3d3d3d);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+/* Logo */
+.logo img {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+/* Social Buttons */
+.social-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+/* Social Icons */
+.btn svg {
+  margin-right: 10px;
+  fill: #fff;
+}
+
+/* Footer */
+.footer-container {
+  margin-top: 200px;
+  font-size: 14px;
+  backdrop-filter: blur(5px);
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Tablet (768px and below) */
+@media screen and (max-width: 768px) {
+  
+
+  .btn {
+    width: 220px;
+    font-size: 16px;
+  }
+
+  .logo img {
+    max-width: 130px;
+  }
+
+  .footer-container {
+    font-size: 13px;
+  }
+}
+
+/* Mobile (480px and below) */
+@media screen and (max-width: 480px) {
+  .main-container {
+    max-width: 95%;
+    padding: 30px;
+  }
+
+  .btn {
+    width: 200px;
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+
+  .logo img {
+    max-width: 120px;
+  }
+
+  .footer-container {
+    font-size: 12px;
+  }
+}
