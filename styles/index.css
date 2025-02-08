@@ -59,7 +59,7 @@ body {
 /* Footer */
 .footer-container {
   margin-top: 200px;
-  font-size: 14px;
+  font-size: 8px;
   backdrop-filter: blur(5px);
 }
 
@@ -79,7 +79,7 @@ body {
   }
 
   .footer-container {
-    font-size: 13px;
+    font-size: 6px;
   }
 }
 
@@ -101,6 +101,6 @@ body {
   }
 
   .footer-container {
-    font-size: 12px;
+    font-size: 6px;
   }
 }
